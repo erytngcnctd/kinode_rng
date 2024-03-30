@@ -1,6 +1,6 @@
 {
     "name": "Rng",
-    "description": "Distributed rng. . .",
+    "description": "distributed random number generator. . .",
     "image": "https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
     "properties": {
         "package_name": "Rng",
@@ -9,7 +9,7 @@
         "website": "https://github.com/erytngcnctd/kinode_rng",
         "mirrors": ["magiccity.os"],
         "code_hashes": {
-            "0.1.0": "870d72b8f147c9da77966a7b84fbc9fe0f1b2a0cb74a4bda580a7f95ae70f139"
+            "0.1.0": "3940ffb22f7a643779ff0aabcd7a4142cfe445b64899e242491c603350531117"
         }
     },
     "external_url": "",
