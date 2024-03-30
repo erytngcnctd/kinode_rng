@@ -216,7 +216,7 @@ function App() {
                 <th>value</th>
                 <th>target</th>
                 <th>context</th>         
-                {width > 450 && <th>time</th>}
+                {width > 500 && <th>time</th>}
               </tr>
               {randoms?.map((r,i) => {
                 var when = new Date(r.timestamp);
@@ -225,7 +225,7 @@ function App() {
                     <td>
                        {r.msg_source}
                     </td>
-                    <td>
+                    <td style={{ wordBreak: width < 420 ? 'break-all' : 'normal' }}>
                       {`[${r.range[0]}..${r.range[1]}]`}
                     </td>
                     <td>
@@ -234,10 +234,10 @@ function App() {
                     <td>
                        {r.rng_source}
                     </td>
-                    <td style={{minWidth: '8vw', maxWidth:  '42vw'}}>
+                    <td style={{ minWidth: '8vw', maxWidth:  '42vw' }}>
                         {r.context || '#'}
                     </td> 
-                    {width > 450 &&
+                    {width > 500 &&
                     <td>
                         {`${when.toLocaleTimeString("en-US")}`}   <br></br>
                         {`${when.toLocaleDateString("en-US")}`}  

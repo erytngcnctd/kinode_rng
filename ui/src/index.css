@@ -94,7 +94,7 @@ table, tr, td, th  {
 }
 
 th, td{
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: .3em;
+  padding-right: .3em;
 
 }
