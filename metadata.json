@@ -1,6 +1,6 @@
 {
-    "name": "kinode_rng",
-    "description": "distributed rng. . .",
+    "name": "Rng",
+    "description": "Distributed rng. . .",
     "image": "",
     "properties": {
         "package_name": "Rng",
@@ -12,6 +12,6 @@
             "0.1.0": "870d72b8f147c9da77966a7b84fbc9fe0f1b2a0cb74a4bda580a7f95ae70f139"
         }
     },
-    "external_url": "",
+    "external_url": "https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
     "animation_url": ""
 }
