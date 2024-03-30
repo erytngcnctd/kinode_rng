@@ -3,7 +3,7 @@
     "description": "distributed rng. . .",
     "image": "",
     "properties": {
-        "package_name": "kinode_rng",
+        "package_name": "Rng",
         "current_version": "0.1.0",
         "publisher": "magiccity.os",
         "website": "https://github.com/erytngcnctd/kinode_rng",
