@@ -7,12 +7,12 @@
         "current_version": "0.1.0",
         "publisher": "magiccity.os",
         "website": "https://github.com/erytngcnctd/kinode_rng",
-        "mirrors": [],
+        "mirrors": ["magiccity.os"],
         "code_hashes": {
             "0.1.0": "870d72b8f147c9da77966a7b84fbc9fe0f1b2a0cb74a4bda580a7f95ae70f139"
         }
     },
     "external_url": "",
-    "image_url":"https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
+    "image": "https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
     "animation_url": ""
 }
