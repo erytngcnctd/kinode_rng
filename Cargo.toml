@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "kinode_rng",
+]
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+lto = true

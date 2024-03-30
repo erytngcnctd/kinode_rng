@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+}
+
+.themeButton {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color);
+  cursor: pointer;
+}
+
+.bottom {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  height: 32px;
+  left:0;
+  width: 100vw;
+  z-Index: 8888;
+}
+
+.results {
+  overflow: scroll;
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+  padding: 1em;
+}
+
+

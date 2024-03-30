@@ -1,0 +1,17 @@
+{
+    "name": "kinode_rng",
+    "description": "distributed rng. . .",
+    "image": "",
+    "properties": {
+        "package_name": "kinode_rng",
+        "current_version": "0.1.0",
+        "publisher": "magiccity.os",
+        "website": "https:/https://github.com/erytngcnctd/kinode_rng",
+        "mirrors": [],
+        "code_hashes": {
+            "0.1.0": ""
+        }
+    },
+    "external_url": "",
+    "animation_url": ""
+}
