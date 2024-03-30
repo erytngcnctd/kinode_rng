@@ -1,7 +1,7 @@
 {
     "name": "Rng",
     "description": "Distributed rng. . .",
-    "image": "",
+    "image": "https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
     "properties": {
         "package_name": "Rng",
         "current_version": "0.1.0",
@@ -13,6 +13,5 @@
         }
     },
     "external_url": "",
-    "image": "https://bafybeicxpwi3tq5lc5cnkvn4ddvtvggisyxge5w6a7ot5u7x4a3zzahsz4.ipfs.dweb.link/",
     "animation_url": ""
 }
