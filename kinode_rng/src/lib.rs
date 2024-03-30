@@ -255,7 +255,7 @@ fn handle_local_request(
 ) -> anyhow::Result<()> {
     match action {
         RngRequest::NewRandom { context, range } => {
-            println!("here local");
+            // println!("here local");
             if range.0 > range.1 {
                 return Err(anyhow::anyhow!("invalid number range"));
             }

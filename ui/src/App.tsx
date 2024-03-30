@@ -226,7 +226,7 @@ function App() {
                        {r.msg_source}
                     </td>
                     <td>
-                      {`[${r.range[0]}...${r.range[1]}]`}
+                      {`[${r.range[0]}..${r.range[1]}]`}
                     </td>
                     <td>
                       {r.value}

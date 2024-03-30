@@ -92,3 +92,9 @@ table, tr, td, th  {
   padding: auto;
   overflow-wrap: break-word;
 }
+
+th, td{
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
