@@ -259,7 +259,7 @@ fn handle_local_request(
             if range.0 > range.1 {
                 return Err(anyhow::anyhow!("invalid number range"));
             }
-            //check value max > min??
+
             let mut rng = ChaCha20Rng::from_entropy();
             let random = Random {
                 rng_source: our.node.clone().to_string(),
@@ -328,21 +328,15 @@ fn handle_http_request(
                     vec![],
                 ));
             };
-            // if min > max  {
-            //     return Ok(http::send_response(
-            //     http::StatusCode::BAD_REQUEST,
-            //     None,
-            //     vec![],
-            //     ));
-            // };
+
             let context = blob_json["context"].as_str();
            
-               //change this
+               //change this?
                 let action = &RngRequest::NewRandom { range: (min,max), context: context.map(str::to_string) };
                 
                 if target_kinode == our.node { 
                    handle_local_request(our, state, &action)} else {
-                    println!("here http");
+                    // println!("here http");
                 let Ok(msg) = Request::new()
                     .target((target_kinode, our.process.clone()))
                     .body(serde_json::to_vec(action)?)

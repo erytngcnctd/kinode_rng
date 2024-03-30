@@ -161,7 +161,7 @@ function App() {
               id="min"
               value={range.min}
               onChange={(event) => setRange({max: range.max, min: event.target.valueAsNumber})}
-            />...
+            />..
              <input
               style={{
                 padding: "0.25em 0.5em",
@@ -202,8 +202,8 @@ function App() {
             }}type="submit"> Send</button>
           </form>
         </div>
-        <div className='results'>
-          <table>
+        { randoms.length > 0 && <div className='results'>
+          <table style={{minWidth: width > 480 ? '450px' : '350px'}}>
             <thead>
               <tr>
                 <th colSpan={6} /> 
@@ -235,7 +235,7 @@ function App() {
                        {r.rng_source}
                     </td>
                     <td style={{minWidth: '8vw', maxWidth:  '42vw'}}>
-                        {r.context}
+                        {r.context || '#'}
                     </td> 
                     {width > 450 &&
                     <td>
@@ -248,6 +248,7 @@ function App() {
             </tbody>
           </table>
         </div>
+        }
       </div>
       <div className='bottom'>
         <div
